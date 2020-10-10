@@ -1,7 +1,10 @@
 ---
 name: Bug Report
 about: Create a report to help us improve Cloudbox
-labels: Bug
+title: ''
+labels: ''
+assignees: ''
+
 ---
 
 **Describe the bug**

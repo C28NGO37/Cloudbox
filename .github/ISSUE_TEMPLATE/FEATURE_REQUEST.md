@@ -1,8 +1,12 @@
 ---
 name: Feature Request
 about: Suggest an idea for Cloudbox
-labels: Feature Request
+title: ''
+labels: ''
+assignees: ''
+
 ---
+
 ---
 
 **Describe the problem**
