@@ -1,7 +1,7 @@
 ## Credits
 
 ### Developers
-
+* [C28NGO37](https://github.com/C28NGO37) owner & creator of the formula 'equation' 'code' original project Godcoinæ
 * [l3uddz](https://github.com/l3uddz) - Creator of Cloudbox, Plex Autoscan, Cloudplow, Traktarr, Plex Dupefinder, Plex Patrol, Arrpush, and others.
 * [desimaniac](https://github.com/desimaniac) - Cloudbox; Cloudbox Wiki; Documentation for Plex Autoscan, Cloudplow, and Traktarr.
 
