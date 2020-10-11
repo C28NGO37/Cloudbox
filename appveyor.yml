@@ -1,4 +1,13 @@
----
+---appveyor.yml:
+
+deploy:
+  provider: S3
+  access_key_id:
+    secure: <encrypted-access-key-id>
+  secret_access_key:
+    secure: <encrypted-access-key-secret>
+  bucket: <your-bucket>
+  folder: $(APPVEYOR_PROJECT_SLUG)/$(APPVEYOR_BUILD_VERSION)
 version: 1.0.0-{build}
 
 skip_tags: true
@@ -103,4 +112,14 @@ on_finish:
 
       if( -not ($env:APPVEYOR_PULL_REQUEST_NUMBER) -and ($env:APPVEYOR_REPO_BRANCH –eq "develop") ){
         gitVersion
-      }
+      }appveyor.yml:
+
+deploy:
+  provider: S3
+  access_key_id:
+    secure: <encrypted-access-key-id>
+  secret_access_key:
+    secure: <encrypted-access-key-secret>
+  bucket: <your-bucket>
+  folder: $(APPVEYOR_PROJECT_SLUG)/$(APPVEYOR_BUILD_VERSION)
+
